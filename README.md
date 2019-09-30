@@ -3,5 +3,5 @@
 Язык реализации: Java  
 
 # Содержание
-1 [Документация](documents)  
-1.1 [Требования](documents/requirements/Software%20Requirements%20Specification.md)  
+1 [Документация](documentation)  
+1.1 [Требования](documentation/requirements/Software%20Requirements%20Specification.md)  
