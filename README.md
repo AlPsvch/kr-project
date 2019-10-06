@@ -2,6 +2,8 @@
 # KR - Капитальный Ремонт
 Язык реализации: Java
 
+"Капитальный ремонт" - это онлайн сервис, предоставляющий широкий спектр услуг в сфере строительства и ремонта.
+
 Для запуска приложения вам понадобится:
 * [JDK 1.8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 * [Maven 3](https://maven.apache.org/download.cgi)
