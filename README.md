@@ -11,3 +11,4 @@
 # Содержание
 1 [Документация](documentation)  
 1.1 [Требования](documentation/requirements/Software%20Requirements%20Specification.md)  
+1.2 [Диаграммы](documentation/diagrams/README.md)
