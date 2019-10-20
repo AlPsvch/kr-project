@@ -4,7 +4,7 @@
 # Содержание
 1 [Просмотреть услуги](#check_service)  
 2 [Просмотреть цены](#check_prices)  
-3 [Добавить адрес интернет-ресурса](#check_portfolio)
+3 [Просмотреть портфолио](#check_portfolio)
 
 <a name="check_service"/>
 
