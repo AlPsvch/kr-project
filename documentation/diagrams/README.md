@@ -7,4 +7,4 @@
 3 [Диаграммы последовательностей](sequence/README.md)    
 4 [Диаграммы состояния](state/README.md)  
 5 [Диаграмма классов](classes/README.md)  
-6 [Диаграмма компонентов](components/README.md)    
+6 [Диаграмма компонентов и развертывания](components/README.md)    
