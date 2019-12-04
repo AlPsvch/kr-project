@@ -11,4 +11,8 @@
 # Содержание
 1 [Документация](documentation)  
 1.1 [Требования](documentation/requirements/Software%20Requirements%20Specification.md)  
-1.2 [Диаграммы](documentation/diagrams/README.md)
+1.2 [Диаграммы](documentation/diagrams/README.md)   
+2 [Код программы](kr)   
+2.1 [Backend](kr/backend)   
+2.2 [Frontend](kr/frontend)   
+3 [Паттерны](documentation/patterns/README.md)
