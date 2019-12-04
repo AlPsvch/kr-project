@@ -1,0 +1,9 @@
+<app-header></app-header>
+<h2>Полезные советы, чтобы избежать частых ошибок</h2>
+<ul class="list-group list-group-flush">
+  <li class="list-group-item" *ngFor="let advice of advices; let i = index">
+    {{advice.adviceDescription}}
+  </li>
+</ul>
+<br>
+<app-footer></app-footer>

@@ -1,0 +1,30 @@
+<header>
+  <div class="logo">
+    <a class="btn" (click)="moveToPage('')"><img class="graphiclogo" src="../../assets/images/logo.png" alt="Logo"></a>
+  </div>
+  <nav>
+    <div class="topnav" id="myTopnav">
+      <div class="btn">
+        <a (click)="moveToPage('')">ГЛАВНАЯ</a>
+        <a class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+             aria-expanded="false">УСЛУГИ<span class="caret"></span></a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuDivider">
+            <li><a (click)="moveToPage('services', '1')">Дизайн</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a (click)="moveToPage('services', '2')">Строительство</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a (click)="moveToPage('services', '3')">Ремонт квартир</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a (click)="moveToPage('services', '4')">Материалы</a></li>
+          </ul>
+        </a>
+        <a (click)="moveToPage('prices')">ЦЕНЫ</a>
+        <a (click)="moveToPage('portfolio')">ПОРТФОЛИО</a>
+        <a (click)="moveToPage('advices')">СОВЕТЫ</a>
+        <a (click)="moveToPage('contacts')">КОНТАКТЫ</a>
+        <a id="menu" href="#" class="icon">&#9776;</a>
+      </div>
+    </div>
+  </nav>
+</header>
