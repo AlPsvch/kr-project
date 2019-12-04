@@ -1,11 +1,28 @@
 <app-header></app-header>
-<label>
-  {{avlblService.description}}
-</label>
-<tr>
-  <td>
 
-  </td>
-</tr>
-Посмотреть информацию о ценах вы можете <a href="prices">здесь</a>.
+<div class="table-responsive-md">
+<table class="table">
+  <tr>
+    <th>{{avlblService.name}}</th>
+    <th>Наши мастера</th>
+  </tr>
+  <tr>
+    <td>
+      {{avlblService.description}}<br><br><br><br><br>
+      Посмотреть информацию о ценах вы можете <a href="prices">здесь</a>.
+    </td>
+    <td width="40%">
+      <img src="{{avlblService.imageUrl}}">
+      <img src="{{avlblService.imageUrl}}">
+      <img src="{{avlblService.imageUrl}}">
+      <img src="{{avlblService.imageUrl}}">
+      <img src="{{avlblService.imageUrl}}">
+      <img src="{{avlblService.imageUrl}}">
+    </td>
+  </tr>
+
+
+</table>
+</div><br>
+
 <app-footer></app-footer>

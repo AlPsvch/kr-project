@@ -1,2 +1,18 @@
 <app-header></app-header>
+<br>
+<h3>Реализованные объекты</h3><br>
+<h4>В разделе представлены работы наших мастеров.
+  Все фотоснимки реальные, сделаны накануне сдачи домов и квартир Заказчикам. Оцените проекты и качество их реализации, чтобы понять, можно ли нам доверять.
+</h4><br>
+<div class="table-responsive-md">
+  <table class="table">
+    <tr *ngFor="let portfolio of portfolios">
+      <td class="btn" (click)="openPortfolioDescriptor('portfolio-details', '1')">
+        <img src="{{portfolio.imageUrl}}"/> <br>
+        {{portfolio.shortDescription}}
+      </td>
+    </tr>
+
+  </table>
+</div>
 <app-footer></app-footer>

@@ -23,4 +23,7 @@ public class Portfolio {
 
     @Column(name = "materials_description")
     private String materialsDescription;
+
+    @Column(name = "image_url")
+    private String imageUrl;
 }

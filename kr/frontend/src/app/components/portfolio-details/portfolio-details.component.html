@@ -1,1 +1,23 @@
-<p>portfolio-details works!</p>
+<app-header></app-header>
+<br>
+<h3>{{portfolio.defaultName}}</h3> <br>
+<div class="table-responsive-md">
+  <table class="table">
+    <tr>
+      <td width="50%">{{portfolio.materialsDescription}}</td>
+      <td></td>
+    </tr>
+  </table>
+</div><br>
+<div class="table-responsive-md">
+  <table class="table">
+    <tr>
+      {{portfolio.description}}
+    </tr>
+    <tr>
+      <img src="{{portfolio.imageUrl}}"/>
+      <img src="{{portfolio.imageUrl}}"/>
+    </tr>
+  </table>
+</div><br>
+<app-footer></app-footer>

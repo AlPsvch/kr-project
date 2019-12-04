@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {PortfolioModel} from "../../models/portfolio.model";
+import {PortfoliosService} from "../../services/portfolios.service";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-portfolio',
@@ -7,9 +10,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortfolioComponent implements OnInit {
 
-  constructor() { }
+  private portfolios: PortfolioModel[];
+
+  constructor(private service: PortfoliosService,
+              private router: Router) {
+  }
 
   ngOnInit() {
+    this.service.getAllPortfolios().subscribe(response => {
+      this.portfolios = response;
+    })
+  }
+
+  openPortfolioDescriptor(href: string, id: string): void {
+    this.router.navigate([href], {
+      queryParams: {
+        id: id
+      }
+    });
   }
 
 }

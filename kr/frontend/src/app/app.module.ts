@@ -14,6 +14,9 @@ import { AdvicesComponent } from './components/advices/advices.component';
 import { ContactsComponent } from './components/contacts/contacts.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { PortfolioDetailsComponent } from './components/portfolio-details/portfolio-details.component';
+import {AdvicesService} from "./services/advices.service";
+import {PricesService} from "./services/prices.service";
+import {PortfoliosService} from "./services/portfolios.service";
 
 const appRoutes: Routes = [
   {path: '', component: HomePageComponent},
@@ -21,7 +24,8 @@ const appRoutes: Routes = [
   {path: 'prices', component: PricesComponent},
   {path: 'portfolio', component: PortfolioComponent},
   {path: 'advices', component: AdvicesComponent},
-  {path: 'contacts', component: ContactsComponent}
+  {path: 'contacts', component: ContactsComponent},
+  {path: 'portfolio-details', component: PortfolioDetailsComponent}
 ];
 
 @NgModule({
@@ -42,7 +46,10 @@ const appRoutes: Routes = [
     RouterModule.forRoot(appRoutes),
     HttpClientModule
   ],
-  providers: [ServicesService],
+  providers: [ServicesService,
+  AdvicesService,
+  PricesService,
+  PortfoliosService],
   bootstrap: [AppComponent]
 })
 export class AppModule {

@@ -1,2 +1,19 @@
 <app-header></app-header>
+<h2>Цены на наши услуги</h2>
+<table class="table">
+  <thead class="thead-dark">
+  <tr>
+    <th>Услуга</th>
+    <th>Единица измерения</th>
+    <th>Цена, BYN</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let price of prices">
+    <td>{{price.serviceName}}</td>
+    <td>{{price.unit}}</td>
+    <td>{{price.price}}</td>
+  </tr>
+  </tbody>
+</table>
 <app-footer></app-footer>
