@@ -15,4 +15,3 @@
 2 [Код программы](kr)   
 2.1 [Backend](kr/backend)   
 2.2 [Frontend](kr/frontend)   
-3 [Паттерны](documentation/patterns/README.md)
