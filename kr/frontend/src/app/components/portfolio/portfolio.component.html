@@ -7,7 +7,7 @@
 <div class="table-responsive-md">
   <table class="table">
     <tr *ngFor="let portfolio of portfolios">
-      <td class="btn" (click)="openPortfolioDescriptor('portfolio-details', '1')">
+      <td class="btn" (click)="openPortfolioDescriptor('portfolio-details', portfolio.id)">
         <img src="{{portfolio.imageUrl}}"/> <br>
         {{portfolio.shortDescription}}
       </td>
