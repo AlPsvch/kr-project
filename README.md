@@ -15,3 +15,6 @@
 2 [Код программы](kr)   
 2.1 [Backend](kr/backend)   
 2.2 [Frontend](kr/frontend)   
+3 [Тестирование](documentation/testing)   
+3.1 [План тестирования](documentation/testing/testPlan.md)   
+3.2 [Результаты тестирования](documentation/testing/testResults.md)   
